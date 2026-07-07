@@ -9,6 +9,24 @@
 
 ## Domain
 
+**RPI Campus Dining Experience**
+
+sources might include housing forums, Yelp reviews, orientation wikis, or unofficial FAQs.
+
+1. [A Massive List of Restaurants in the RPI Area](https://www.reddit.com/r/RPI/comments/1kar67/a_massive_list_of_restaurants_in_the_rpi_area/)
+2. [Here's a look inside the newly renovated Commons Dining Hall](https://www.facebook.com/RPI.EDU/posts/heres-a-look-inside-the-newly-renovated-commons-dining-hall/10157414067877357/)
+3. [Russell Sage Dining Hall: A Culinary Oasis in the Heart of Troy](https://wonstudy.com/russell-sage-dining-hall-a-culinary-oasis-in-the-heart-of-troy/)
+4. [RPI Dining Hours: Your Ultimate 2024 Guide for Every Hall](https://the-brain.blog/rpi-dining-hours-ultimate-2024-guide-every-hall-15149/)
+5. [Campus dining follow-up: Lally Galley proves decent](https://poly.rpi.edu/features/2013/02/2013-02-20-campus-dining-follow-up-lally-galley-proves-decent)
+6. [Rensselaer Polytechnic Institute Reviews](https://www.niche.com/colleges/rensselaer-polytechnic-institute/reviews/)
+7. [How's the food](https://www.reddit.com/r/RPI/comments/zrnqys/hows_the_food/)
+8. [Food for Thought](https://magazine.rpi.edu/feature/food-for-thought)
+9. [RPI neighborhood](https://talk.collegeconfidential.com/t/rpi-neighborhood/1974021)
+10. [RPI's failure to feed](https://poly.rpi.edu/opinion/2023/04/rpi-failure-to-feed)
+
+My chosen domain is RPI's campus dining experience. This knowledge is hard to find because food options are publicly visible on the school's website, however, the dining experience are typically provided by the students who are attending or who have attended the university, or the people who live around the areas, and the reviews are typically scattered across the internet, therefore it's necessary to search for all information and piece them together.
+
+
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
 
 ---
