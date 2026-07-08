@@ -116,6 +116,23 @@ If I were deploying this for real users and cost wasn't a constraint, I would co
      Label each stage with the tool or library you're using.
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
+```mermaid
+flowchart TD
+    A["<b>1. Document Ingestion</b><br/>Fetch & clean 10 sources<br/><i>requests / BeautifulSoup</i><br/>preserve paragraph breaks (\n\n)"]
+    B["<b>2. Chunking</b><br/>Recursive splitter<br/>~400 tokens, ~60 overlap<br/><i>LangChain RecursiveCharacterTextSplitter</i>"]
+    C["<b>3a. Embedding</b><br/>Encode chunks to vectors<br/><i>all-MiniLM-L6-v2 (sentence-transformers)</i>"]
+    D[("<b>3b. Vector Store</b><br/>Persist embeddings + metadata<br/><i>ChromaDB</i>")]
+    E["<b>4. Retrieval</b><br/>Embed query, similarity search<br/>top-k = 5<br/><i>ChromaDB query</i>"]
+    F["<b>5. Generation</b><br/>Answer grounded in retrieved chunks<br/>+ source attribution<br/><i>Claude (Anthropic API)</i>"]
+
+    A --> B --> C --> D
+    Q(["User Question"]) --> E
+    D --> E --> F --> ANS(["Answer + Sources"])
+
+    style D fill:#e1f0ff,stroke:#4a90d9
+    style Q fill:#fff4e6,stroke:#e8a13a
+    style ANS fill:#e6f7e6,stroke:#4caf50
+```
 
 ---
 
@@ -132,7 +149,10 @@ If I were deploying this for real users and cost wasn't a constraint, I would co
      with my specified chunk size and overlap" is a plan. -->
 
 **Milestone 3 — Ingestion and chunking:**
+I'll provide Claude Code my chunking strategy section as well as the document section, ask it to implement the ingestion_text() and chunk_text () with my provided documents and my specified chunk size and overlap. I'll verify the output to check if it matches against my specification
 
 **Milestone 4 — Embedding and retrieval:**
+I'll provide Claude Code my Retrieval section, with the embedding model, and top k decision, as well as my trade off reflection ask it to implement the embedding_vector() and retrieval_to_generation () function with the information provided from the sections. I'll verify the output to check if it matches against my specification
 
 **Milestone 5 — Generation and interface:**
+I'll provide Claude Code my Eveluation Plan section, ask it to implement the generate_answer () function with the information provided from the sections. I'll verify the output to check if it matches against my specification
