@@ -42,12 +42,19 @@ My chosen domain is RPI's campus dining experience. This knowledge is hard to fi
      State your chunk size (in tokens or characters), overlap size, and explain why those
      numbers fit the structure of your documents.
      A review-heavy corpus warrants different chunking than a long FAQ. -->
+     I would consider to chunk in token size, I'm considering fixed size chunk, or recursive chunking strategy
 
 **Chunk size:**
 
+~400 Tokens
+
 **Overlap:**
 
+~50-75 tokens
+
 **Reasoning:**
+
+Most of my documents or sources are reviews or comments that are formed in paragraph forms. I believe this size provides cleaner, more precise embedding and less off-topic noise per retrieval
 
 ---
 
@@ -61,9 +68,15 @@ My chosen domain is RPI's campus dining experience. This knowledge is hard to fi
 
 **Embedding model:**
 
+all-MiniLM-L6-v2 via sentence-transformers
+
 **Top-k:**
 
+5
+
 **Production tradeoff reflection:**
+
+If I were deploying this for real users and cost wasn't a constraint, I would consider the tradeoffs on context length, accuracy on domain-specific text, and latency when using different models, since these are key factors users value the most when interacting with RAG systems or AI Models
 
 ---
 
