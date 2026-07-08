@@ -11,7 +11,9 @@
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
 **RPI Campus Dining Experience**
 
+
 My chosen domain is RPI's campus dining experience. This knowledge is hard to find because food options are publicly visible on the school's website, however, the dining experience are typically provided by the students who are attending or who have attended the university, or the people who live around the areas, and the reviews are typically scattered across the internet, therefore it's necessary to search for all information and piece them together.
+
 ---
 
 ## Documents
