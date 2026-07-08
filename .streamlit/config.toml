@@ -1,0 +1,8 @@
+[theme]
+# RPI cardinal red as the accent; light, modern base.
+primaryColor = "#c9002b"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f5f6f8"
+textColor = "#1a1a2e"
+base = "light"
+font = "sans serif"
