@@ -89,11 +89,11 @@ If I were deploying this for real users and cost wasn't a constraint, I would co
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | What do students say about the peak hours at Russell Sage? | The absolute busiest time at Sage is usually weekdays between 12:00 PM and 1:00 PM for lunch. Dinner rush also tends to pick up right at 5:00 PM. (from The-Brain.blog)|
+| 2 | What do university staff say about BARH Dining Hall's food menu focus area? | A registered dietitian-nutritionist and dietitian for Rensselaer Dining Services shared that  dining hall has always been leaned on performance-based menus. But now the menus are focused on foods that enhance optimal athletic and mental performance  (from RPI Alumni Magazine)|
+| 3 | Does Russell Sage Dining Hall accomodate to dietary needs? | Yes, The dining hall staff is well-versed in allergen identification and can assist diners with any dietary restrictions. The menu clearly labels all dishes with common allergens, and special dietary requests can be accommodated upon request. (from wonstudy.com)|
+| 4 | Which two pizza restaurants near the campus area are the most popular among RPI students, and how are they compared? | Big Apple Pizza (Pizza Bella) and Defazios are mentioned by students being the two most popular pizza places. The comparison is described as similar to a "Mac vs. PC" debate, with the recommendation that students try both and decide for themselves. (from Reddit ) |
+| 5 | Which one of the restaurants do students recommend are especially good choices for weekend breakfasts? | For weekend breakfasts, students recommend Manory's, praising its accommodating service for groups and breakfast specials. (from Reddit) |
 
 ---
 
@@ -103,9 +103,9 @@ If I were deploying this for real users and cost wasn't a constraint, I would co
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
+1. The off-topic retrieval might be a problem because the documents involved a lot of general discussions about the university, not just about campus dining experience.
 
-2.
+2. Chunks that split key information across boundaries might be a problem because the the length of my documents vary so it could break some documents into chunks with incomplete sentences or information.
 
 ---
 
