@@ -24,7 +24,7 @@ My chosen domain is RPI's campus dining experience. This knowledge is hard to fi
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
 | 1 |  Reddit Post | A Massive List of Restaurants in the RPI Area | https://www.reddit.com/r/RPI/comments/1kar67/a_massive_list_of_restaurants_in_the_rpi_area/ |
-| 2 | Facebook Post | Here's a look inside the newly renovated Commons Dining Hall | https://www.facebook.com/RPI.EDU/posts |
+| 2 | Reddit Post | Sodexo | https://www.reddit.com/r/RPI/comments/1li57g/sodexo/ |
 | 3 | wonstudy.com | Russell Sage Dining Hall: A Culinary Oasis in the Heart of Troy | https://wonstudy.com/russell-sage-dining-hall-a-culinary-oasis-in-the-heart-of-troy/ |
 | 4 | The Brain Blog | RPI Dining Hours: Your Ultimate 2024 Guide for Every Hall | https://the-brain.blog/rpi-dining-hours-ultimate-2024-guide-every-hall-15149/ |
 | 5 | University News Article | Campus dining follow-up: Lally Galley proves decent | https://poly.rpi.edu/features/2013/02/2013-02-20-campus-dining-follow-up-lally-galley-proves-decent |
@@ -46,15 +46,15 @@ My chosen domain is RPI's campus dining experience. This knowledge is hard to fi
 
 **Chunk size:**
 
-~400 Tokens
+~150 tokens
 
 **Overlap:**
 
-~50-75 tokens
+~25 tokens
 
 **Reasoning:**
 
-Most of my documents or sources are reviews or comments that are formed in paragraph forms. I believe this size provides cleaner, more precise embedding and less off-topic noise per retrieval
+Most of my documents or sources are reviews or comments that are formed in paragraph forms. I originally used ~256 tokens (the point at which all-MiniLM-L6-v2 truncates input, so every token still influences the vector). But when I tested retrieval on my 5 evaluation questions, 256-token chunks only recalled 3/5 — some answers (e.g. BARH's performance-based menus) sat as a single sentence inside a large multi-topic chunk, so their signal was diluted and they ranked below top-k. Re-chunking at ~150 tokens raised recall to 5/5 and pulled those answers to the top, because each chunk now covers a tighter, more focused idea. I did not go smaller than ~150: at ~100 tokens recall dropped back to 3/5 as answers got split across chunk boundaries. 150/25 was the empirical sweet spot for this review-heavy corpus.
 
 ---
 
@@ -119,7 +119,7 @@ If I were deploying this for real users and cost wasn't a constraint, I would co
 ```mermaid
 flowchart TD
     A["<b>1. Document Ingestion</b><br/>Fetch & clean 10 sources<br/><i>requests / BeautifulSoup</i><br/>preserve paragraph breaks (\n\n)"]
-    B["<b>2. Chunking</b><br/>Recursive splitter<br/>~400 tokens, ~60 overlap<br/><i>LangChain RecursiveCharacterTextSplitter</i>"]
+    B["<b>2. Chunking</b><br/>Recursive splitter<br/>~150 tokens, ~25 overlap<br/><i>LangChain RecursiveCharacterTextSplitter</i>"]
     C["<b>3a. Embedding</b><br/>Encode chunks to vectors<br/><i>all-MiniLM-L6-v2 (sentence-transformers)</i>"]
     D[("<b>3b. Vector Store</b><br/>Persist embeddings + metadata<br/><i>ChromaDB</i>")]
     E["<b>4. Retrieval</b><br/>Embed query, similarity search<br/>top-k = 5<br/><i>ChromaDB query</i>"]
@@ -156,3 +156,6 @@ I'll provide Claude Code my Retrieval section, with the embedding model, and top
 
 **Milestone 5 — Generation and interface:**
 I'll provide Claude Code my Eveluation Plan section, ask it to implement the generate_answer () function with the information provided from the sections. I'll verify the output to check if it matches against my specification
+
+
+Use your planning.md as a prompt to an AI tool (Claude, Copilot, ChatGPT) to generate your ingestion and chunking code. Share your Documents section (what file types and sources you have), your Chunking Strategy section, and your pipeline diagram. Ask the AI to implement a script that loads your documents, cleans them, and produces chunks matching your specified chunk size and overlap. Review what it generates: does it match your spec? Does it handle the document structure you described? Correct anything that doesn't fit, and ask the AI to explain any part you don't understand.

@@ -1,0 +1,93 @@
+Query: 'Which one of the restaurants do students recommend are especially good choices for weekend breakfasts?'   (top 5)
+======================================================================
+
+[1] score=0.623  distance=0.377  source=Reddit Post  (01_reddit_massive_list_of_restaurants::17)
+    https://www.reddit.com/r/RPI/comments/1kar67/a_massive_list_of_restaurants_in_the_rpi_area/
+    Bonus: They're next door to a vintage game store.  Manory's - Breakfast/Diner  At the corner of Congress and 4th, and awesome for weekend breakfasts. Go with a big group, they are always very accommodating. Theyalso occasionally have interesting breakfast specials (or specials on pancakes). Manory'…
+
+[2] score=0.591  distance=0.409  source=University Magazine  (08_food_for_thought::1)
+    https://magazine.rpi.edu/feature/food-for-thought
+    "The students definitely have moved healthier," says David Wilkerson, lead daytime lunch cook, who has been at Rensselaer for three years. "They ask for more grain dishes and salad dishes; overall, just more variety. We always have at least one gluten-free option and a vegan or vegetarian offering."…
+
+[3] score=0.583  distance=0.417  source=The Brain Blog  (04_rpi_dining_hours_guide::18)
+    https://the-brain.blog/rpi-dining-hours-ultimate-2024-guide-every-hall-15149/
+    When the pressure is on and you only have 20 minutes between labs, students have their proven favorites. The Deli/Sandwich Shop is often a top choice for a quick, customized, and relatively healthy meal. For that essential morning or mid-afternoon boost, the Campus Cafe is unmatched for its speed an…
+
+[4] score=0.578  distance=0.422  source=Reddit Post  (07_hows_the_food::12)
+    https://www.reddit.com/r/RPI/comments/zrnqys/hows_the_food/
+    Witch_King_ (9 upvotes) Standard college fare  Gooddj9000 (4 upvotes) The food is usually a mixed bag. Can be good sometimes and can be horrendous other times. Imo I would rank it as: Breakfast, Dinner, Lunch; in order of how consistently good it is. I will say always check any bread or sandwiches f…
+
+[5] score=0.578  distance=0.422  source=Online Forum  (09_rpi_neighborhood::1)
+    https://talk.collegeconfidential.com/t/rpi-neighborhood/1974021
+    On-Campus: The student union has a lot. The school store sells pretty much any small items you'd need like batteries, notebooks, pens, paper, shampoo, etc. Father's Marketplace sells various foods and drinks, but is a bit pricey for groceries. There's also a burger place, sandwich place, and pizzeri…
+
+Query: 'Which two pizza restaurants near the campus area are the most popular among RPI students, and how are they compared?'   (top 5)
+======================================================================
+
+[1] score=0.771  distance=0.229  source=Reddit Post  (01_reddit_massive_list_of_restaurants::1)
+    https://www.reddit.com/r/RPI/comments/1kar67/a_massive_list_of_restaurants_in_the_rpi_area/
+    And now for the list that has no real specific order:  Big Apple Pizza - Pizza  The most popular pizza place, and the closest to RPI campus. You may hear of it by it's colloquial name, "Bella" or "Pizza Bella". This was the name before Big Apple Pizza, (Same owners, nothing changed except the title)…
+
+[2] score=0.658  distance=0.342  source=Reddit Post  (01_reddit_massive_list_of_restaurants::0)
+    https://www.reddit.com/r/RPI/comments/1kar67/a_massive_list_of_restaurants_in_the_rpi_area/
+    A Massive List of Restaurants in the RPI Area  In the spirit of encouraging people to eat out and explore the downtown area, I've made a list of places you might hear about, or should hear about while at RPI. Troy has become way less sketchy/scary/jank in the past couple years, although some vandals…
+
+[3] score=0.625  distance=0.375  source=University Magazine  (08_food_for_thought::2)
+    https://magazine.rpi.edu/feature/food-for-thought
+    "With such a broad range of diversity here at RPI, the tastes that the students bring are so eclectic," says Aaron Pouliot, Rensselaer Dining Services' new campus executive chef. "The students are educated in food and they are not afraid to try new things. They have a strong global palate. They want…
+
+[4] score=0.595  distance=0.405  source=Reddit Post  (01_reddit_massive_list_of_restaurants::2)
+    https://www.reddit.com/r/RPI/comments/1kar67/a_massive_list_of_restaurants_in_the_rpi_area/
+    Defazios - Pizza  Also the most popular pizza place in town, located on 4th street downtown. A wide array of toppings with pizza cooked in a wood-fired oven. They do delivery, so it's easy to get a hot pizza without going outside in the cold. Highly suggested by many, and I've never heard a truly ba…
+
+[5] score=0.592  distance=0.408  source=Reddit Post  (01_reddit_massive_list_of_restaurants::3)
+    https://www.reddit.com/r/RPI/comments/1kar67/a_massive_list_of_restaurants_in_the_rpi_area/
+    Moe's - Southwest  This Moe's is owned by the same people who provide your dining hall meals- Sodexo. You can't use your meal plan here, though, and I don't find the quality to be much better than dining hall quality. I also find it too expensive, but people tend to like it due to the proximity to c…
+
+
+Query: "What do university staff say about BARH Dining Hall's food menu focus area?"   (top 5)
+======================================================================
+
+[1] score=0.733  distance=0.267  source=University Magazine  (08_food_for_thought::7)
+    https://magazine.rpi.edu/feature/food-for-thought
+    And the BARH dining hall has transitioned to performance-based menus. "It's always leaned in that direction, but now the menus are focused on foods that enhance optimal athletic and mental performance—things like lean proteins, whole grains, steamed vegetables, and cauliflower and whole wheat crust …
+
+[2] score=0.656  distance=0.344  source=Reddit Post  (07_hows_the_food::14)
+    https://www.reddit.com/r/RPI/comments/zrnqys/hows_the_food/
+    Puppyboy2003 — ENGR 2026 (7 upvotes) This is mostly a review of Commons Dining hall, but mostly appliesto other dining halls. The food (at it's best) is worse than Georgia Tech, Boston College, American University, and Bentley (at their worst). (I was at summer camps at all those places, and they w…
+
+[3] score=0.631  distance=0.369  source=The Brain Blog  (04_rpi_dining_hours_guide::3)
+    https://the-brain.blog/rpi-dining-hours-ultimate-2024-guide-every-hall-15149/
+    Why Your Dining Schedule is a Game-Changer  Think of your dining schedule as a secret weapon for a stress-free RPI experience. Knowing when and where to eat can significantly ease your student life. No more scrambling for food between back-to-back lectures, missing out on your favorite meal, or wand…
+
+[4] score=0.626  distance=0.374  source=The Brain Blog  (04_rpi_dining_hours_guide::1)
+    https://the-brain.blog/rpi-dining-hours-ultimate-2024-guide-every-hall-15149/
+    We'll dive deep into everything from regular Operating Hours and special schedules to mouth-watering Menu Specialties and savvy tips for avoiding those notorious campus crowds. Whether it's the main dining hallsor the diverse options managed by RPI Dining Services (often powered by partners like So…
+
+[5] score=0.621  distance=0.379  source=The Brain Blog  (04_rpi_dining_hours_guide::13)
+    https://the-brain.blog/rpi-dining-hours-ultimate-2024-guide-every-hall-15149/
+    From Bytes to Bites: Barh Dining Hall, the Polytechnic Commons' Energy Source  Nestled conveniently in the heart of the Polytechnic Commons, Barh Dining Hall stands as a vital fueling station for students livingin the surrounding residence halls like Barh itself, Barton, and other nearby dorms. Mor…
+
+Query: 'What do students say about the peak hours at Russell Sage?'   (top 5)
+======================================================================
+
+[1] score=0.682  distance=0.318  source=The Brain Blog  (04_rpi_dining_hours_guide::8)
+    https://the-brain.blog/rpi-dining-hours-ultimate-2024-guide-every-hall-15149/
+    Navigating the Buzz: Beating the Crowds  Given its popularity and central location, Russell Sage can get pretty busy, especially during peak meal times. The absolute busiest time at Sage is usually weekdays between 12:00 PM and 1:00 PM for lunch. Dinner rush also tends to pick up right at 5:00 PM. F…
+
+[2] score=0.579  distance=0.421  source=The Brain Blog  (04_rpi_dining_hours_guide::7)
+    https://the-brain.blog/rpi-dining-hours-ultimate-2024-guide-every-hall-15149/
+    Standard Operating Hours for Russell Sage Dining Hall: Breakfast: Weekdays 7:00 AM – 10:30 AM, Weekends 8:00 AM – 10:30 AM Lunch: 11:00 AM – 2:00 PM Dinner: 4:30 PM – 8:00 PM Late Night: Weekdays 8:00 PM – 12:00 AM, Weekends Closed  Note: Late Night dining is typically not available on weekends, but…
+
+[3] score=0.553  distance=0.447  source=The Brain Blog  (04_rpi_dining_hours_guide::6)
+    https://the-brain.blog/rpi-dining-hours-ultimate-2024-guide-every-hall-15149/
+    Location and Vibe: The Epicenter of Campus Life  Nestled conveniently in the center of campus, Russell Sage, often just called "Sage," holds the title for the largest and most central dining hall at RPI. Its prime location makes it incredibly accessible from nearly every academic building and reside…
+
+[4] score=0.551  distance=0.449  source=wonstudy.com  (03_russell_sage_culinary_oasis::11)
+    https://wonstudy.com/russell-sage-dining-hall-a-culinary-oasis-in-the-heart-of-troy/
+    Additional Information  Dining Hours Breakfast: Monday – Friday: 7:00 AM – 10:00 AM Lunch: Monday – Friday: 11:30 AM – 2:30 PM Dinner: Monday – Thursday: 5:00 PM – 8:00 PM Friday: 5:00 PM – 7:00 PM Saturday: 11:30 AM – 2:30 PM  Menu Options  Russell Sage Dining Hall's menu changes daily, but typical…
+
+[5] score=0.540  distance=0.460  source=The Brain Blog  (04_rpi_dining_hours_guide::9)
+    https://the-brain.blog/rpi-dining-hours-ultimate-2024-guide-every-hall-15149/
+    Beyond the Basics: Menu Specialties and Late-Night Bites  Russell Sage isn't just about standard meals; it's also known for some standout options that make it a campus favorite. Sage shines brightest in the evenings with its late-night dining options. This is a massive draw for students, offering co…
+
