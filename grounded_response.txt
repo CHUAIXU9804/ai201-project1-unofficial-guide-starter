@@ -1,0 +1,45 @@
+(.venv) cxu@MacBookAir ai201-project1-unofficial-guide-starter % cd /Users/cxu/PycharmProjects/AI_Projects/ai201-project1-unofficial-guide-starter
+/Users/cxu/PycharmProjects/AI_Projects/.venv/bin/python generate.py "What do students say about if Russell Sage Dining Hall accomodate to dietary needs?" 
+
+
+======================================================================
+According to wonstudy.com (russell sage culinary oasis), Russell Sage Dining Hall is committed to meeting the dietary needs of all its patrons, offering a variety of gluten-free, vegan, and vegetarian options, and the staff is happy to assist with any special dietary requests. Additionally, the dining hall staff is well-versed in allergen identification and can assist diners with any dietary restrictions, with the menu clearly labeling all dishes with common allergens, and special dietary requests can be accommodated upon request.
+
+Sources:
+  1. wonstudy.com (russell sage culinary oasis) — https://wonstudy.com/russell-sage-dining-hall-a-culinary-oasis-in-the-heart-of-troy/
+
+(.venv) cxu@MacBookAir ai201-project1-unofficial-guide-starter % cd /Users/cxu/PycharmProjects/AI_Projects/ai201-project1-unofficial-guide-starter
+/Users/cxu/PycharmProjects/AI_Projects/.venv/bin/python generate.py "What do university staff say about BARH Dining Hall's food menu focus area?"
+
+
+======================================================================
+According to University Magazine (food for thought), university staff, specifically Kimberly Mayer, registered dietitian-nutritionist and dietitian for Rensselaer Dining Services, say that BARH Dining Hall's food menu focus area is on "foods that enhance optimal athletic and mental performance—things like lean proteins, whole grains, steamed vegetables, and cauliflower and whole wheat crust pizzas" to "fuel their bodies and minds to keep them at the top of their game."
+
+Sources:
+  1. University Magazine (food for thought) — https://magazine.rpi.edu/feature/food-for-thought
+  2. Reddit Post (hows the food) — https://www.reddit.com/r/RPI/comments/zrnqys/hows_the_food/
+  3. The Brain Blog (rpi dining hours guide) — https://the-brain.blog/rpi-dining-hours-ultimate-2024-guide-every-hall-15149/
+
+
+(.venv) cxu@MacBookAir ai201-project1-unofficial-guide-starter % cd /Users/cxu/PycharmProjects/AI_Projects/ai201-project1-unofficial-guide-starter
+/Users/cxu/PycharmProjects/AI_Projects/.venv/bin/python generate.py "Which one of the restaurants do students recommend are especially good choices for weekend breakfasts?"
+
+
+======================================================================
+According to the Reddit Post (reddit massive list of restaurants), Manory's is a recommended choice for weekend breakfasts, as it is "awesome for weekend breakfasts" and has interesting breakfast specials.
+
+Sources:
+  1. Reddit Post (reddit massive list of restaurants) — https://www.reddit.com/r/RPI/comments/1kar67/a_massive_list_of_restaurants_in_the_rpi_area/
+  2. University Magazine (food for thought) — https://magazine.rpi.edu/feature/food-for-thought
+  3. The Brain Blog (rpi dining hours guide) — https://the-brain.blog/rpi-dining-hours-ultimate-2024-guide-every-hall-15149/
+  4. Reddit Post (hows the food) — https://www.reddit.com/r/RPI/comments/zrnqys/hows_the_food/
+  5. Online Forum (rpi neighborhood) — https://talk.collegeconfidential.com/t/rpi-neighborhood/1974021
+
+
+(.venv) cxu@MacBookAir ai201-project1-unofficial-guide-starter % cd /Users/cxu/PycharmProjects/AI_Projects/ai201-project1-unofficial-guide-starter
+/Users/cxu/PycharmProjects/AI_Projects/.venv/bin/python generate.py "Where is Stony Brook University located?"
+
+
+======================================================================
+I don't have enough information in my sources to answer that.
+
